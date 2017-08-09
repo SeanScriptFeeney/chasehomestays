@@ -1,0 +1,53 @@
+<html ng-app="chaseHomestays">
+
+<head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/styles.css">
+
+    <style>
+        input{
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            border: 4px solid grey;
+            text-align: center;
+            border-radius: 4px;
+            font-size: 70px;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            border: 4px solid #c2c2c2;
+            box-shadow: 1px 1px 4px #ebebeb;
+            -moz-box-shadow: 1px 1px 4px #ebebeb;
+            -webkit-box-shadow: 1px 1px 4px #ebebeb;
+            border-radius: 3px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 3px;
+            padding: 7;
+            background-color: #ccccbb;
+        }
+    </style>
+</head>
+
+<body ng-cloak>
+
+    <div>
+        <input type="text">
+
+        <input type="text">
+
+        <input type="text">
+    </div>
+
+    <chase-homestays-root></chase-homestays-root>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-component-router/angular_1_router.js"></script>    
+    <script src="app.js"></script> 
+    <script src="chasehomestays/chaseHomestaysRoot.component.js"></script>
+    <script src="properties/propertyList.component.js"></script>
+    <script src="properties/property.service.js"></script>
+    <script src="properties/propertyProfile.component.js"></script>                      
+</body>
+
+</html>

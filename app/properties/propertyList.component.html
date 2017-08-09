@@ -1,0 +1,15 @@
+<div>
+    <h3>Chase Homestay's</h3>
+    <table class="table">
+        <tr>
+            <th>Properties</th>
+            <th>Guest Count</th>
+            <th>Rooms Occupied</th>
+        </tr>
+        <tr ng-repeat="property in model.properties">
+            <td><a ng-link="['PropertyProfile', {id: property.id}]">{{property.name}}</a></td>
+            <td>{{property.guestCount}}</td>
+            <td>{{property.roomsOccupied}}</td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,12 @@
+body{
+	padding:10px;
+	background-color: #ccccbb;
+}
+
+.ng-cloak {
+    display: none;
+}
+
+ul {
+  list-style-type: none;
+}
